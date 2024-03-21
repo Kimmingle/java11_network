@@ -12,7 +12,7 @@
 		<label for ="name">이름</label> :
 		<input type="text" name = "name" id="name" /><br>
 		<label for = "age">나이</label> : 
-		<input type = "number" max="100" min="1" value="20" step="1" name="age" id ="age"><br></b>
+		<input type = "number" max="100" min="1" value="20" step="1" name="age" id ="age"><br>
 		<label for = "point">점수</label> :
 		<input type = "number" max="100" min="0" value="50" name="point" id="point" ><br>
 		<input type="submit" value="입력">&nbsp;&nbsp;&nbsp;&nbsp;

@@ -1,0 +1,45 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import = "java.util.*" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>웹의 전달과 스코프 알기</title>
+
+</head>
+<body>
+<h2>웹의 객체 전달고 스코프(scope) 알기</h2>
+<%
+	ArrayList<String> lst = new ArrayList<String>();
+	lst.add("이정희");
+	lst.add("이원석");
+	lst.add("이예린");
+	lst.add("이연정");
+	lst.add("이성하");
+	
+	request.setAttribute("lst", lst);
+	Set<String> set = new HashSet<String>();
+	set.add("조대신");
+	set.add("조우진");
+	set.add("최태영");
+	set.add("한태역");
+	request.setAttribute("set", set);
+	
+	Map<Integer, String> map = new HashMap<>();
+	map.put(1, "김동연");
+	map.put(2, "김민식");
+	map.put(3, "김민아");
+	map.put(4, "김윤정");
+	map.put(5, "김응원");
+	map.put(6, "김필규");
+	request.setAttribute("map", map);
+	
+	RequestDispatcher rd = request.getRequestDispatcher("test08.jsp");  //requwst. set. map에 담아서 보낸거ㅛ
+	rd.forward(request, response);
+	response.sendRedirect("test08.jsp");  //데이터 이동(url에는 test07로 뜨지만 내용은 test08로 나옴)
+	
+%>
+<h2>객체 데이터 전달하기</h2>
+</body>
+</html>

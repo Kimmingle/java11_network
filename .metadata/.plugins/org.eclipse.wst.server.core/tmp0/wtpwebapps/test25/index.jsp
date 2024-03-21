@@ -11,10 +11,14 @@
 	<hr>
 	<nav>
 		<ul>
-			<li><a href="test04.jsp">JSP의 기본 구성 요소</a></li>
+			<li><a href="test01.jsp">JSP의 기본 구성 요소</a></li>
 			<li><a href="test02.jsp?name='김민아'&age=24&point=80">GET방식 데이터 전송</a></li>
 			<li><a href="test03.jsp">POST 데이터 전송</a></li>
-			<li><a href=""></a></li>
+			<li><a href="test04.jsp">데이터 전송 비교</a></li>
+			<li><a href="test05.jsp?msg=복습하세요">메세지 전달</a></li>
+			<li><a href="test06.jsp">jsp의 기본 객체</a></li>
+			<li><a href="test10.jsp">로그인</a></li>
+			<li><a href="test11.jsp">include</a></li>
 			
 			
 		</ul>
