@@ -12,6 +12,7 @@
 
 	if (sId != null){
 		session.invalidate();  //세션 종료시켜라
+		out.println("로그아웃 댐");
 	}
 	response.sendRedirect("test10.jsp");
 	

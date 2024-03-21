@@ -18,7 +18,7 @@
 	
 	
 	
-	<a href = "Login.jsp">로그아웃</a>
+	<a href = "logout.jsp">로그아웃</a>
 	<a href = "mypage.jsp">본인 정보 보기</a>
 </div>
 <%	

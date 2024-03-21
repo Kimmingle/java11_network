@@ -16,10 +16,6 @@
 	<button type="submit">취소</button>
 </form>
 
-<% 
-	
-	
-%>
 
 </body>
 </html>

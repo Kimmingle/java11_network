@@ -67,9 +67,9 @@
 	out.println("<h2>response : 브라우저를 통해 반환한 결과를 저장하는 객체</h2>");
 	out.println(jspRes==response);
 	
-	HttpSession jspSes = pageContext.getSession();
-	out.println("<h2>session : 인가된 사용자 정보를 저장하는 객체</h2>");
-	out.println(jspSes==session);
+	//HttpSession jspSes = pageContext.getSession();
+	//out.println("<h2>session : 인가된 사용자 정보를 저장하는 객체</h2>");
+	//out.println(jspSes==session);
 	
 	ServletContext jspApp = pageContext.getServletContext();
 	out.println("<h2>application(앱) : 인가된 사용자 정보를 저장하는 객체</h2>");
