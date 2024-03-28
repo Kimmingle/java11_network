@@ -10,4 +10,6 @@
 	<li><a href="test03.jsp">폼 데이터 전송과 표현언어</a>
 	<li><a href="test04.jsp">폼 데이터 전송과 표현언어</a>
 	<li><a href="test05.jsp">폼 데이터 전송과 표현언어</a>
+	<li><a href="test11.jsp">액션태그</a>
+	<li><a href="test12.jsp">액션태그 param</a>
 </ul>

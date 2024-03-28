@@ -20,7 +20,7 @@
 <c:set var="su1" value="0"/>
 <c:set var="su2" value="4"/>
 <c:set var="su3" value="-650000"/>
-<c:set var="today" value="<%=new Data() %>" />
+<c:set var="today" value="<%=new Date() %>" />
 <br><br><br>
 
 <c:out value="${num }"/>
